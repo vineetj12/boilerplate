@@ -2,7 +2,7 @@
   "name": "create-myrepo",
   "version": "1.0.0",
   "bin": {
-    "create-itsvrepo": "index.js"
+    "create-itsv": "index.js"
   },
   "type": "module",
   "dependencies": {
