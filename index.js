@@ -15,7 +15,7 @@ const targetDir = path.join(process.cwd(), projectName);
 
 console.log(`\n📦 Creating project in ${targetDir}...\n`);
 
-await degit('yourname/create-myrepo/templates/default', {
+await degit('https://github.com/vineetj12/boilerplate/tree/main/templates', {
   mode: 'tar'
 }).clone(targetDir);
 
