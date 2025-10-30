@@ -1,0 +1,12 @@
+{
+  "name": "create-myrepo",
+  "version": "1.0.0",
+  "bin": {
+    "create-itsvrepo": "index.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "deg-it": "^2.0.0", 
+    "prompts": "^2.4.2"
+  }
+}
